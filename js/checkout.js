@@ -13,7 +13,7 @@
 	let fAddress = document.getElementById("fAddress");
 	let fPassword = document.getElementById("fPassword");
 	let fPhone = document.getElementById("fPhone");	
- 
+	let fSubmit = document.getElementById("form") 
 		
 	let error = 0;
 	
@@ -94,7 +94,7 @@
 	else {
 		errorPhone.style.display = 'none';
 	}
-   
+
 	if(error>0){
 		return false;
 	}
@@ -105,4 +105,5 @@
 	}
 	
 
-}
+	
+	}

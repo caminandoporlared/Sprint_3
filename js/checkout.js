@@ -3,7 +3,8 @@
 	 
 
  function validate() {
-
+    // Hace que la página no se recargue
+	event.preventDefault();
 	
 	// Get the input fields
 	
@@ -100,7 +101,7 @@
 	}
 	else{
 		
-		alert("OK");
+		// alert("OK");
 		return true;
 	}
 	
